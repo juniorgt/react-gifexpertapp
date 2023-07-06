@@ -5,7 +5,7 @@ export const GifGridItem = ({ id, title, url }) => {
 
   return (
     <div>
-      <img src={url} alt={title} />
+      <img className="aspect-square object-cover" src={url} alt={title} />
       <p className="text-white"> {title}</p>
     </div>
   );
